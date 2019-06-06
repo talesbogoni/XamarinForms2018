@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace App01_ConsultarCEP
+namespace App02_TipoPaginaXF
 {
     public partial class App : Application
     {
@@ -11,8 +11,7 @@ namespace App01_ConsultarCEP
         {
             InitializeComponent();
 
-            //MainPage = new MainPage();
-            MainPage = new ConsultaLivro();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

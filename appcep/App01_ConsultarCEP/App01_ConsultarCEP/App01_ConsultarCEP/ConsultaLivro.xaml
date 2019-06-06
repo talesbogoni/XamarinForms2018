@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App01_ConsultarCEP.ConsultaLivro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo.png" x:Name="LOGO"/>
+            <Entry x:Name="LIVRO" 
+               Placeholder="Código do Livro" 
+               PlaceholderColor="Orange"
+               BackgroundColor="White"/>
+            <Button x:Name="BOTAO"
+                Text="Dados do Livro" 
+                TextColor="White" 
+                BackgroundColor="#005168"
+                Clicked="Botao_Clicked"/>
+
+            <Button x:Name="LISTARTUDO"
+                Text="Todos os Livros" 
+                TextColor="White" 
+                BackgroundColor="#005168"
+                Clicked="Botao_Tudo_Clicked"/>
+
+            <Entry x:Name="TITULO" 
+               Placeholder="Título do Livro" 
+               PlaceholderColor="Orange"
+               BackgroundColor="White"/>
+            <Entry x:Name="AUTOR" 
+               Placeholder="Autor" 
+               PlaceholderColor="Orange"
+               BackgroundColor="White"/>
+            <Entry x:Name="ANO" 
+               Placeholder="Ano de publicação" 
+               PlaceholderColor="Orange"
+               BackgroundColor="White"/>
+
+            <Button x:Name="INSERIR"
+                Text="Inserir Livro" 
+                TextColor="White" 
+                BackgroundColor="#005168"
+                Clicked="Botao_Inserir_Clicked"/>
+
+            <Label x:Name="RESULTADO"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
