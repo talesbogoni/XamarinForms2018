@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_master_detail.Paginas.Page3"
+             Title="Página 3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Página 3"/>
+                <Label Text="111111111111111111111"/>
+                <Label Text="222222222222222222222"/>
+                <Label Text="333333333333333333333"/>
+                <Label Text="444444444444444444444"/>
+                <Label Text="555555555555555555555"/>
+                <Label Text="666666666666666666666"/>
+                <Label Text="777777777777777777777"/>
+                <Label Text="888888888888888888888"/>
+                <Label Text="999999999999999999999"/>
+                <Label Text="111111111111111111111"/>
+                <Label Text="222222222222222222222"/>
+                <Label Text="333333333333333333333"/>
+                <Label Text="444444444444444444444"/>
+                <Label Text="555555555555555555555"/>
+                <Label Text="666666666666666666666"/>
+                <Label Text="777777777777777777777"/>
+                <Label Text="888888888888888888888"/>
+                <Label Text="999999999999999999999"/>
+                <Label Text="111111111111111111111"/>
+                <Label Text="222222222222222222222"/>
+                <Label Text="333333333333333333333"/>
+                <Label Text="444444444444444444444"/>
+                <Label Text="555555555555555555555"/>
+                <Label Text="666666666666666666666"/>
+                <Label Text="777777777777777777777"/>
+                <Label Text="888888888888888888888"/>
+                <Label Text="999999999999999999999"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
