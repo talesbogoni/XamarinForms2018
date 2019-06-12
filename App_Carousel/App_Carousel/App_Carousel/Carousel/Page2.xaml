@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Carousel.Carousel.Page2"
+             BackgroundColor="Blue">
+    <ContentPage.Content  >
+        <StackLayout  VerticalOptions="CenterAndExpand">
+            <Label Text="Sistemas de Informação"
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="Logotiposi.gif"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
